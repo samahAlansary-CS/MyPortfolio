@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 200px;
+    justify-content: space-between;
+    z-index: 999;
+    position: fixed;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 10 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #4a148c;
+}
+
+
+section {
+    padding: 100px 200px;
+
+}
+
+.main {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline block;
+    font-size: 2.1em;
+    margin-top: 10px;
+    color: #3c70ff;
+    width: 700;
+}
+
+.main h3 {
+    font-size: 2em;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-bot {
+    display: inline-block;
+    padding: 0.9375em 2.2879em;
+    text-decoration: none;
+    font-size:1em;
+    color: #fff;
+}
+a { 
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+
+.main-bot:hover {
+    background-color: #3c70ff;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    padding-right: 30px;
+    font-size: 50px;
+}
+
+.title {
+    color: #3a6cf4;
+    font-size:3em;
+    margin-bottom: 30px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 100px rgba(1, 1, 1, 25%);
+    margin: 19px;
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+
+}
+.info h3{
+    font-size: 1.2em;
+    color: #3c70ff;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.skils-bars{
+    color: #222;
+    font-weight: 700;
+    font-size: 2.1em;
+    text-align: center;
+}
+
+.label{
+    color: #3c70ff;
+    width: 400;
+    margin-bottom: 15px;
+}
+#Contact .icon{
+    font-size: 4em;
+}
+
+#Contact .info p  {
+    font-size:1.3em;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+}
+
+#Contact .info h3 {
+    font-size:1.3em;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+}
+.footer {
+    background-color:#000016;
+    color: #fff;
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+}
+.title-footer{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.title-footer span{
+    color: #3a6cf4;
+}
+
+@media(max-width: 1023px){
+    header{
+        padding: 12px  20px;
+        font-size: 1.3em;
+    }
+    .navigation a{
+        padding-left: 10px; 
+        font-size: 0.8em;
+        
+    }
+    
+    .title{
+        font-size: 2em;
+    }
+    section{
+        padding: 80px 20px ;
+    }
+    .main h2{
+        font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.5em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;    
+    }
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.5em;
+    }
+}
